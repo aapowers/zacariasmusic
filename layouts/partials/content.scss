@@ -1,0 +1,67 @@
+@import '../app.scss';
+@import '~bootstrap/scss/_tables.scss';
+
+#content {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+
+  pre, code, textarea {
+    font-family: $font-family-monospace;
+  }
+
+  blockquote {
+    border-left: 4px solid #ddd;
+    background: #efefef;
+    padding: 12px;
+    font-size: $font-size-base;
+  }
+
+  img.full-size {
+    height: 200px;
+    background-color: black;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width:100%;
+  }
+
+  img.half-size {
+    height: 350px;
+    background-color: black;
+    object-fit: cover;
+    object-position: 100% 0;
+    width:50%;
+  }
+
+  img.three-in-a-row {
+    height: 200px;
+    background-color: black;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: calc(100%/3);
+  }
+
+  #about {
+    img {
+      height: 500px;
+    }
+    position: relative;
+    .about-title {
+      text-wrap: normal;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      color: black;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .about-text-block {
+      background-color: $gray-dark;
+      color: $gray-light;
+      font-size: larger;
+    }
+  }
+}

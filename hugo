@@ -1,0 +1,2 @@
+#!/bin/bash
+bin/hugo_0.19_darwin_amd64 ${@:1}

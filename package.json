@@ -1,0 +1,40 @@
+{
+  "name": "zacarias-music",
+  "version": "0.0.1",
+  "description": "Website for David's music.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "watch-dev": "webpack --display-error-details --colors --watch",
+    "build-dev": "webpack --display-error-details --colors",
+    "build-prod": "webpack -p",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "import-css": "^2.0.0",
+    "jquery": "^3.5.1",
+    "masonry-layout": "^4.2.2",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.14.7",
+    "sass-loader": "^6.0.3",
+    "scriptjs": "^2.5.9",
+    "style-loader": "^0.16.0",
+    "tether": "^1.4.5",
+    "url-loader": "^0.5.8",
+    "vanilla-lazyload": "^5.1.1",
+    "webpack": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aapowers/davidzmusic.git"
+  },
+  "author": "aapowers",
+  "license": "BSD-2-Clause"
+}

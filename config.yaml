@@ -1,0 +1,10 @@
+languageCode: "en-us"
+title: "Zacarias Music"
+canonifyurls: true
+params:
+  Logo: "/assets/global/dzlogo.png"
+metaDataFormat: "yaml"
+blackfriday:
+  plainIdAnchors: true
+  extension:
+    - autoHeaderId

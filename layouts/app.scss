@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Colors
+$gray-light: #eee;
+$gray-medium: #aaa;
+$gray-dark: #444;
+
+$gray-light-transparent: change_color($gray-light, $alpha: 0.5);
+$gray-medium-transparent: change_color($gray-medium, $alpha: 0.5);
+$gray-dark-transparent: change_color($gray-dark, $alpha: 0.5);
+
+
+$theme-colors: (
+        primary: $gray-dark,
+        secondary: $black,
+        success: $green,
+        info: $blue,
+        warning: $orange,
+        danger: $red,
+        light: $gray-100,
+        dark: $gray-800
+);
+
+// Font config
+$font-size-base: 1rem;
+$font-family-base: "Lato","Verdana","Arial",sans-serif;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:       white;
+$body-color:    #444;
+$inverse-bg:    $gray-dark;
+$inverse-color: $gray-light;

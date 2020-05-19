@@ -1,0 +1,64 @@
+<div id="content" class="m-0">
+    <div id="main-image" class="mx-0 bx-0">
+        <img
+                src="{{ .Site.BaseURL }}/assets/images/TempPic.png"
+                alt="temp-pic"
+                class="full-size"
+        >
+    </div>
+    {{ partial "navbar.html" . }}
+    <div id="about">
+        <img
+                src="{{ .Site.BaseURL }}/assets/images/RandomDude.jpg"
+                alt="temp-random-dude"
+                class="full-size"
+        >
+        <h2 class="about-title">ABOUT</h2>
+        <div class="about-text-block p-4 text-justify">
+            <p>David is supder duper amazing. La la la. Isn't that cool?
+                You should really listen to his music. His voice is like
+                nectar of the gods. So yeah. Super cool.He was an expert
+                but not in a discipline that anyone could fully appreciate.
+                He knew how to hold the cone just right so that the soft serve
+                ice-cream fell into it at the precise angle to form a perfect cone each and every time.
+                It had taken years to perfect and he could now do it without even putting any thought behind it.
+                Nobody seemed to fully understand the beauty of this accomplishment
+                except for the new worker who watched in amazement.
+            </p>
+        </div>
+    </div>
+    <div id="music" class="d-inline-flex">
+        <div class="flex-column">
+            <div class="d-inline-flex">
+                <img
+                        src="{{ .Site.BaseURL }}/assets/images/ed.jpeg"
+                        alt="temp-pic"
+                        class="three-in-a-row"
+                >
+                <img
+                        src="{{ .Site.BaseURL }}/assets/images/TempPic.png"
+                        alt="temp-pic"
+                        class="three-in-a-row"
+                >
+                <img
+                        src="{{ .Site.BaseURL }}/assets/images/billie.jpeg"
+                        alt="temp-pic"
+                        class="three-in-a-row"
+                >
+            </div>
+            {{ partial "music/music-widget.html" . }}
+            <div class="d-inline-flex">
+                <img
+                        src="{{ .Site.BaseURL }}/assets/images/TempPic.png"
+                        alt="temp-pic"
+                        class="half-size"
+                >
+                <img
+                        src="{{ .Site.BaseURL }}/assets/images/RandomDude.jpg"
+                        alt="temp-pic"
+                        class="half-size"
+                >
+            </div>
+        </div>
+    </div>
+</div>

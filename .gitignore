@@ -1,0 +1,10 @@
+.DS_Store
+config.codekit
+.sass-cache
+public
+dist
+dist-live
+dist-staging
+.idea
+node_modules/
+*.exe
