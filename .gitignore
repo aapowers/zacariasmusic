@@ -8,3 +8,4 @@ dist-staging
 .idea
 node_modules/
 *.exe
+public
