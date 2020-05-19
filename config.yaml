@@ -2,7 +2,7 @@ languageCode: "en-us"
 title: "Zacarias Music"
 canonifyurls: true
 params:
-  Logo: "/assets/global/dzlogo.png"
+  Logo: "/assets/images/TempPic.png"
 metaDataFormat: "yaml"
 blackfriday:
   plainIdAnchors: true
