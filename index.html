@@ -18,11 +18,9 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 <title>Zacarias Music</title>
 
-    <link type="text/css" rel="stylesheet" href="assets/css/commons.css">
     <link type="text/css" rel="stylesheet" href="assets/css/index.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-    <script src="assets/js/commons.js" defer></script>
     <script src="assets/js/index.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
 
@@ -37,11 +35,9 @@
 <main>
     <div id="content" class="m-0">
     <div id="main-image" class="mx-0 bx-0">
-        <img
-                src="assets/images/TempPic.png"
-                alt="temp-pic"
-                class="full-size"
-        >
+        <video autoplay muted loop id="headerVideo">
+            <source src="assets/videos/TestVideo.mp4" type="video/mp4">
+        </video>
     </div>
     <nav id="mid-nav" class="navbar navbar-dark text-center">
     <a id="about-nav" href="#about" class="nav-item font-weight-bolder text-center px-4">ABOUT</a>
@@ -139,6 +135,22 @@
             </div>
         </div>
     </div>
+    <div id="slideshow-widget" data-component="slideshow">
+    <div role="list">
+        <div class="slide">
+            <img src="assets/images/billie.jpeg" alt="billie_image">
+        </div>
+        <div class="slide">
+            <img src="assets/images/ed.jpeg" alt="ed_image">
+        </div>
+        <div class="slide">
+            <img src="assets/images/TempPic.png" alt="temp_image">
+        </div>
+        <div class="slide">
+            <img src="assets/images/RandomDude.jpg" alt="random_dude_image">
+        </div>
+    </div>
+</div>
 </div>
 
 </main>
