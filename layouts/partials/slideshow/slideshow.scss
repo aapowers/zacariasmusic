@@ -1,0 +1,17 @@
+@import "../../app";
+
+[data-component="slideshow"] {
+  margin-top: -6px;
+  .slide {
+    display: none;
+    &.active {
+      display: block;
+    }
+    img {
+      height: 350px;
+      object-fit: fill;
+      object-position: 50% 50%;
+      width:100%;
+    }
+  }
+}

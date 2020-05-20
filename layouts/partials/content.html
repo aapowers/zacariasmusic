@@ -1,12 +1,10 @@
 <div id="content" class="m-0">
     <div id="main-image" class="mx-0 bx-0">
-        <img
-                src="assets/images/TempPic.png"
-                alt="temp-pic"
-                class="full-size"
-        >
+        <video autoplay muted loop playsinline id="headerVideo">
+            <source src="assets/videos/TestVideo.mp4" type="video/mp4">
+        </video>
     </div>
-    {{ partial "navbar.html" . }}
+    {{ partial "navbar/navbar.html" . }}
     <div id="about">
         <img
                 src="assets/images/RandomDude.jpg"
@@ -61,4 +59,5 @@
             </div>
         </div>
     </div>
+    {{ partial "slideshow/slideshow.html" . }}
 </div>

@@ -20,6 +20,17 @@
     font-size: $font-size-base;
   }
 
+  #main-image {
+    margin-bottom: -6px;
+  }
+
+  #headerVideo {
+    height: 450px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width:100%;
+  }
+
   img.full-size {
     height: 200px;
     background-color: black;

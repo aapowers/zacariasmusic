@@ -1,6 +1,6 @@
 import './font_awesome.js'
-import './partials/header.js'
-import './partials/footer.js'
+import './partials/header/header.js'
+import './partials/footer/footer.js'
 import './bootstrap.js'
 import './index.scss'
 import './app.scss'
